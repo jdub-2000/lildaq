@@ -37,7 +37,7 @@ lildaq.py [-h] [-p PORT] [-o OUTPUT_PATH] [-b BAUD_RATE] [-e]
                         timestamps
   -f FILE_HEADER [FILE_HEADER ...], --file_header FILE_HEADER [FILE_HEADER ...]
                         List of column names to form the header; be sure to
-                        check your Ardunio setup first :)
+                        check your Arduino setup first :)
   -q, --quiet           When flag is used, serial data will not be displayed
                         as it collects
 
@@ -47,7 +47,7 @@ lildaq.py [-h] [-p PORT] [-o OUTPUT_PATH] [-b BAUD_RATE] [-e]
 
 
 
-## Acknowledgements WIP
+## Acknowledgements
 
 This whole thing is just a wrapper for the very nicely built [pySerial](https://pyserial.readthedocs.io/en/latest/#), I really appreciate all their work.
 
