@@ -50,15 +50,13 @@ def main(mon_port, out_path, baud_rate, use_epoch_time, file_header, quiet_mode)
     f = Figlet(font="rowancap")
     print(f.renderText("lilDAQ"))
 
-    print("ver 0.1 ALPHA")
+    print("ver 0.1 \u03B1")
     print("27JUL2024\n")
     print(f"Use Epoch timestamps = {use_epoch_time}")
     print(f"Quiet Mode = {quiet_mode}")
     print(f"Baud Rate: {baud_rate} bps")
     print(f"Streaming serial data from port {mon_port} to {out_path.name}...\n")
     
-    # TODO: General cleanup/DRY etc.
-    # TODO: baud rate enums or datachecks, not continuous but discrete baud rates are accepted by pyserial
     # TODO: add optin to control time code fmt string
     # TODO: path vaildator/ warning for overwriting
 
