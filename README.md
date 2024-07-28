@@ -49,5 +49,7 @@ lildaq.py [-h] [-p PORT] [-o OUTPUT_PATH] [-b BAUD_RATE] [-e]
 
 ## Acknowledgements WIP
 
+This whole thing is just a wrapper for the very nicely built [pySerial](https://pyserial.readthedocs.io/en/latest/#), I really appreciate all their work.
 
+[pyFiglet](https://github.com/pwaller/pyfiglet) Is another awesome library I used to make the text graphics in the CLI.  :)
 
