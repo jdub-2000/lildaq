@@ -73,3 +73,5 @@ This whole thing is just a wrapper for the very nicely built [pySerial](https://
 [pyFiglet](https://github.com/pwaller/pyfiglet) Is another awesome library I used to make the text graphics in the CLI.  :)
 
 The awesome [DHTLib](http://arduino.cc/playground/Main/DHTLib) by Rob Tillaart was used in the Ardunio example code.
+
+This very [helpful blog post](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/) at `Circuit Basics` by Scott Campbell was instrumental to me 
