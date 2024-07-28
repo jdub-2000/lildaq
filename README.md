@@ -56,7 +56,13 @@ Standard values above 115200, such as: 230400, 460800, 500000, 576000, 921600, 1
 Non-standard values are also supported on some platforms (GNU/Linux, MAC OSX >= Tiger, Windows). Though, even on these platforms some serial ports may reject non-standard values.
 ```
 
-## Examples WIP
+## Examples 
+
+In the `/ardunio` directory there is some example `Processing` code and a `.zip` file contianing a an `Arduino` library that is used in the code.  For more information regarding installing/using `Arduino` libraries, check out this [page](http://www.arduino.cc/en/Guide/Libraries).
+
+Using this code conjction with a `DH11 Temperature and Humidity Logger` in the configuration shown [here](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/), you should be logging temperature in `degrees Fahrenheit` and the humidity in `percentage`.  
+
+
 
 
 
@@ -66,3 +72,4 @@ This whole thing is just a wrapper for the very nicely built [pySerial](https://
 
 [pyFiglet](https://github.com/pwaller/pyfiglet) Is another awesome library I used to make the text graphics in the CLI.  :)
 
+The awesome [DHTLib](http://arduino.cc/playground/Main/DHTLib) by Rob Tillaart was used in the Ardunio example code.
