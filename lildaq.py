@@ -2,6 +2,7 @@
 #
 # a CLI for monitoring, and logging arduino/serial structured input
 # designed to be flexible and easy to use for logging things quickly
+# jdub_2000, 27JUL2024
 
 import csv
 import argparse
@@ -50,7 +51,7 @@ def main(mon_port, out_path, baud_rate, use_epoch_time, file_header, quiet_mode)
     print(f.renderText("lilDAQ"))
 
     print("ver 0.1 ALPHA")
-    print("21JUL2024\n")
+    print("27JUL2024\n")
     print(f"Use Epoch timestamps = {use_epoch_time}")
     print(f"Quiet Mode = {quiet_mode}")
     print(f"Baud Rate: {baud_rate} bps")
