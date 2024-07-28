@@ -15,7 +15,7 @@ from serial import serialutil as ser_u
 
 
 
-def open_serial_connection(mon_port, baud_rate):
+def open_serial_connection(mon_port:str, baud_rate:int)-> serial.Serial:
 
     try:
         ser = serial.Serial(
@@ -31,7 +31,7 @@ def open_serial_connection(mon_port, baud_rate):
     return ser
     
 
-def generate_timestamp(use_epoch_time):
+def generate_timestamp(use_epoch_time:bool)-> str:
 
     t = time.localtime()
 
@@ -136,7 +136,7 @@ if __name__ == "__main__":
         "--file_header",
         nargs="+",
         action="store",
-        help="List of column names to form the header; be sure to check your Ardunio setup first :)"
+        help="List of column names to form the header; be sure to check your Arduino setup first :)"
     )
 
     parser.add_argument(

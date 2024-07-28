@@ -24,6 +24,8 @@ pip install -r "setup/requirements.txt"
 lildaq.py [-h] [-p PORT] [-o OUTPUT_PATH] [-b BAUD_RATE] [-e]
                  [-f FILE_HEADER [FILE_HEADER ...]] [-q]
 ```
+to stop logging, hit **Ctrl-C**
+
 ### CLI Options
 ```
   -h, --help            show this help message and exit
