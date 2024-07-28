@@ -6,14 +6,42 @@ A lil' Data Acquisition System (DAQ) in the form of a lightweight CLI that colle
 ## Installation WIP
 
 1. Clone this repository
-2. Create a virtual environment
+2. Create a virtual environment (Optional, but recommended)
 3. Install dependencies 
-4. Navigate to the directory
-5. Log data to your heart's content!
+
+```
+cd lildaq
+pip install -r "setup/requirements.txt"
+```
+4. Log data to your heart's content!
 
 
 ## Usage WIP
 
+### General Usage:
+
+```
+lildaq.py [-h] [-p PORT] [-o OUTPUT_PATH] [-b BAUD_RATE] [-e]
+                 [-f FILE_HEADER [FILE_HEADER ...]] [-q]
+```
+### CLI Options
+```
+  -h, --help            show this help message and exit
+  -p PORT, --port PORT  The serial port to monitor
+  -o OUTPUT_PATH, --output_path OUTPUT_PATH
+                        Local path to write the output file.
+  -b BAUD_RATE, --baud_rate BAUD_RATE
+                        The serial port baud raute in bps; default is 9600
+  -e, --epoch_timestamps
+                        If enabled, reports timestamps as epoch/UNIX
+                        timestamps
+  -f FILE_HEADER [FILE_HEADER ...], --file_header FILE_HEADER [FILE_HEADER ...]
+                        List of column names to form the header; be sure to
+                        check your Ardunio setup first :)
+  -q, --quiet           When flag is used, serial data will not be displayed
+                        as it collects
+
+```
 
 ## Examples WIP
 
