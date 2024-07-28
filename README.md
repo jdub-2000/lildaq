@@ -45,6 +45,17 @@ to stop logging, hit **Ctrl-C**
 
 ```
 
+A note about baudrates...
+From the `pySerial` documentation:
+
+```
+The parameter baudrate can be one of the standard values: 50, 75, 110, 134, 150, 200, 300, 600, 1200, 1800, 2400, 4800, 9600, 19200, 38400, 57600, 115200. These are well supported on all platforms.
+
+Standard values above 115200, such as: 230400, 460800, 500000, 576000, 921600, 1000000, 1152000, 1500000, 2000000, 2500000, 3000000, 3500000, 4000000 also work on many platforms and devices.
+
+Non-standard values are also supported on some platforms (GNU/Linux, MAC OSX >= Tiger, Windows). Though, even on these platforms some serial ports may reject non-standard values.
+```
+
 ## Examples WIP
 
 
