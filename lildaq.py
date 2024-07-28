@@ -2,7 +2,7 @@
 #
 # a CLI for monitoring, and logging arduino/serial structured input
 # designed to be flexible and easy to use for logging things quickly
-# jdub_2000, 27JUL2024
+# jdub-2000, 27JUL2024
 
 import csv
 import argparse
